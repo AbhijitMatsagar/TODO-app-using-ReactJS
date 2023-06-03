@@ -1,0 +1,107 @@
+.mainContainer{
+    position: relative;
+    background-color: #ccdae9;
+    display: flex;
+    justify-content: center;
+    height: 743px;
+}
+.subContainer{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: #08317a;
+}
+.backgroundBannerContent{
+    box-sizing: border-box;
+    background-image: url(../assets/mountains2.png);
+    width: 30rem;
+    height: 18rem;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bannerSection1{
+    padding-right: 130px;
+    position: relative;
+    border-bottom: 7px solid #89cbf0;
+}
+.hamburger{
+    position: absolute;
+    padding-top: 20px;
+    left: 20px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.bannerSection1Your{
+    font-size: 50px;
+    width: 30px;
+    padding-left: 30px;
+    padding-top: 80px;
+    margin: 0;
+}
+.date{
+    padding-left: 20px;
+    padding-top: 40px;
+    width: 140px;
+    font-size: 18px;
+}
+.bannerSection2{
+    background-color: rgb(0,0,0,0.1);
+    padding-left: 25px;
+}
+.countSection{
+    display: flex;
+    justify-content: space-between;
+}
+.personal{
+    padding-right: 30px;
+    padding-top: 90px;
+}
+.thingsCount{
+    font-size: 40px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+}
+.percentCount{
+    padding-top: 50px;
+    font-size: 18px;
+}
+.taskInput{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.taskcontainer{
+    /* background-color: white; */
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+.inputSection{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.inbox{
+    font-size: 20px;
+    
+}
+.orderList{
+    height: 200px;
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+.orderList::-webkit-scrollbar {
+    display: none;
+}
+#input-group-dropdown-1{
+    border-color: white;
+    background: transparent;
+}
+/* .inputArea::placeholder{
+    text-align: center;
+} */
+
